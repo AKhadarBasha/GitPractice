@@ -1,0 +1,10 @@
+# comments to be placed
+#below rules to ignore from git to track
+#curent directory file to ignore
+/test.html
+#All files with specif extension to be ignored
+*.js
+#do not ignore a specific file even if that extension files ignored
+!maim.js
+#ignore a folder and id's files
+build/
